@@ -5,22 +5,6 @@ Este projeto permite que você interaja por voz, usando reconhecimento de fala e
 
 ---
 
-Este arquivo serve como referência para **entender como o projeto funciona e como lidar com possíveis mudanças na API**.  
-## Configuração da API
-
-Para que o assistente funcione corretamente, você precisa fornecer uma **chave de API**.  
-
-1. Crie um arquivo chamado `.env`:
-
-```bash
-touch .env       # Linux/macOS
-# ou no Windows PowerShell:
-# type nul > .env
-``` 
-
-## Instalação
-
-Siga os passos abaixo para configurar o ambiente e instalar todas as dependências necessárias:
 
 1. **Clone o repositório** (caso ainda não tenha feito):
 
@@ -39,8 +23,33 @@ source venv/bin/activate     # Linux/macOS ou no Windows PowerShell: venv\Script
 3. **Instale as dependências necessárias para rodar o assistente:**
 
 ```bash
-pip install -r requirements.txt 
+pip install -r requirements.txt
 ```
+
+---
+
+## Configuração da API
+
+Para que o assistente funcione corretamente, você precisa fornecer uma **chave de API**.  
+
+1. Crie um arquivo chamado `.env`:
+
+```bash
+touch .env       # Linux/macOS
+# ou no Windows PowerShell:
+# type nul > .env
+``` 
+2. Adicione a sua chave de API no arquivo .env:
+   
+```bash
+API_KEY="Sua_chave_de_API_aqui"
+```
+---
+
+## Instalação
+
+Siga os passos abaixo para configurar o ambiente e instalar todas as dependências necessárias:
+
 
 ## Execução
 
@@ -49,4 +58,5 @@ pip install -r requirements.txt
 ```bash
 python main.py # rode dentro da venv
 ```
+---
 
