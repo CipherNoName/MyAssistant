@@ -23,7 +23,7 @@ Siga os passos abaixo para configurar o ambiente e instalar todas as dependênci
 1. **Clone o repositório** (caso ainda não tenha feito):
 
 ```bash
-git clone https://github.com/seu-usuario/MyAssistant.git
+git clone https://github.com/CipherNoName/MyAssistant.git
 cd MyAssistant
 ```
 
