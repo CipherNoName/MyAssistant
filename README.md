@@ -8,8 +8,7 @@ Este projeto permite que você interaja por voz, usando reconhecimento de fala e
 
 Para que o assistente funcione corretamente, você precisa fornecer uma **chave de API**.  
 
-1. Abra o arquivo `.env` que já existe na raiz do projeto.  
-   Se você ainda não tiver, crie um arquivo chamado `.env`:
+1. Crie um arquivo chamado `.env`:
 
 ```bash
 touch .env       # Linux/macOS
