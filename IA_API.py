@@ -8,7 +8,7 @@ if not API_KEY:
     raise ValueError("API_KEY não encontrada! Verifique seu arquivo .env")
 
 
-def entrada(): # deici deixar no codigo mais atualmente estou usando outro metodo para comunicar com api
+def entrada(): # Optei por deixar no codigo mais atualmente estou usando outro metodo para comunicar com api
     return input("Digite sua pergunta aqui: ")
 
 def perguntar_api(texto_usuario):
