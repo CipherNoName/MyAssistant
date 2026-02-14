@@ -5,6 +5,9 @@ Este projeto permite que você interaja por voz, usando reconhecimento de fala e
 
 ---
 
+## Instalação
+
+Siga os passos abaixo para configurar o ambiente e instalar todas as dependências necessárias:
 
 1. **Clone o repositório** (caso ainda não tenha feito):
 
@@ -45,11 +48,6 @@ touch .env       # Linux/macOS
 API_KEY="Sua_chave_de_API_aqui"
 ```
 ---
-
-## Instalação
-
-Siga os passos abaixo para configurar o ambiente e instalar todas as dependências necessárias:
-
 
 ## Execução
 
