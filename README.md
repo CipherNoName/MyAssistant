@@ -5,18 +5,6 @@ Este projeto permite que você interaja por voz, usando reconhecimento de fala e
 
 ---
 
-## Como funciona
-
-- O assistente envia perguntas do usuário para a API externa e recebe respostas em tempo real.  
-- A comunicação com a API é feita via **HTTP** usando a biblioteca `requests`.  
-- Para que o assistente funcione, é necessário ter uma **chave de API** válida, que deve ser adicionada no arquivo `.env` como:
-
-
-
-API_KEY="Sua chave aqui"
-
----
-
 Este arquivo serve como referência para **entender como o projeto funciona e como lidar com possíveis mudanças na API**.  
 ## Configuração da API
 
